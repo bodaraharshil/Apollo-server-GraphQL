@@ -1,0 +1,13 @@
+.booking_list-item{
+    margin:1rem 0;
+    width: 300px;
+    padding: 1rem;
+    border:1px solid #01d1d1;
+    display: flex;
+    justify-content: space-between;
+}
+.booking_list-item h3 {
+    margin-top: 30;
+    font-size: 1rem;
+    color: #000;
+}

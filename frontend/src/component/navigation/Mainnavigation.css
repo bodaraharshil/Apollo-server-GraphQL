@@ -1,0 +1,83 @@
+.main_navigation {
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 3.5rem;
+    background-color: #01d1d1;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.main_navigation_item h1{
+    margin: 0;
+    font-size: 5rem;
+}
+.main_navigation_item {
+    margin-left: 1.5 rem;
+}
+.main_navigation_item ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.main_navigation_item ul li{
+    margin:0 1rem;   
+}
+.main_navigation_item a{
+    text-decoration: none;
+    color: #000;   
+}
+.main_navigation_item a:hover,
+.main_navigation_item a.active{
+    color: #0012ff;   
+}
+
+.main_navigation_item a:hover,
+.main_navigation_item a.active{
+    color: #0012ff;   
+}
+.btn-grad {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #000;
+    font-weight: 600;            
+    border: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #000;
+    text-decoration: none;
+}
+.btn-cancel{
+        margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #000;
+    font-weight: 600;            
+    border: none;
+    box-shadow: 0 0 20px #eee;
+        border: 1px solid #fff;
+    border-radius: 10px;
+    display: block;
+}     
+.btn-cancel:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+}

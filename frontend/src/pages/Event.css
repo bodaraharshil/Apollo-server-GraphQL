@@ -1,0 +1,54 @@
+.event_control{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    width: 30rem;
+    max-width: 80%;
+}
+.event_control button{
+    margin: auto;
+}
+
+.form-control label{
+    text-align: left;
+}
+.form-control label,
+.form-control input ,
+.form-control textarea
+{
+    width:96%;
+    display: block;
+    padding: 1.5%;
+
+}
+.form-control label {
+    margin-bottom: 0.5rem;
+}
+.form-control{
+    margin-bottom: 1rem;
+}
+.event_list{
+    margin-top: 2rem;
+    max-width:27rem ;
+    margin:2rem auto;
+    list-style: none;
+    padding:0;
+}
+.event_list-item{
+    margin:1rem 0;
+    padding: 1rem;
+    border:1px solid #01d1d1
+}
+.booking_list{
+    text-align: -webkit-center;
+}
+.booking_list li{
+    width: 200px;
+    border:1px solid gray;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}

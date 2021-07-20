@@ -1,0 +1,1 @@
+exports.dateTosting = date => new Date(date).toISOString();
