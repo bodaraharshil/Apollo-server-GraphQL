@@ -12,7 +12,8 @@ const { verify } = require('jsonwebtoken');
 const app = express();
 
 const server = new ApolloServer({
-    typeDefs: graphqlSchema, resolvers: graphqlresolver,
+    typeDefs: graphqlSchema,
+    resolvers: graphqlresolver,
     context: async ({ req }) => {
         try {
             const Token = req.headers.authorization.split(' ')[1];
